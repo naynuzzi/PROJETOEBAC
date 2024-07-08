@@ -1,0 +1,23 @@
+[
+    {
+        "titulo": "Encantada",
+        "ano" : 2016,
+        "genero": "Fantasia",
+        "diretor": "Bill Condon",
+        "elenco": "Emma Watson, Dan Stevens, Luke Evans, Kevin Kline",
+        "descricao": "Filme de Fantasia, no qual a princesa de um conto de fadas, vai parar no mundo real"
+    },
+    {
+        "titulo": "A Bela e a Fera",
+        "ano" : 2017,
+        "genero": "Fantasia",
+        "descricao": "filme fantasia, no qual a fera se apaixona por uma bela moça que quebra o feitiço da Fera"
+    },
+    {
+        "titulo": "Cinderela",
+        "ano" : 2015,
+        "genero": "Fantasia",
+        "diretor": "Kenneth Branagh",
+        "descricao":"Filme de Fantasia, no qual uma moça comeca a trabalhar para suas irmas, e um belo dia uma fada madrinha muda toda a sua vida"
+    }
+]
