@@ -4,6 +4,10 @@ describe('US-00 : Funcionalidade: busca por filmes', () => {
     beforeEach(() => {
         cy.visit('/')
     }); 
+    
+    afterEach(() => {
+        cy.screenshot()
+    });
 
     it('Deve busca de filmes com sucesso',() => {
         cy.get('#search-input').type('Encantada')

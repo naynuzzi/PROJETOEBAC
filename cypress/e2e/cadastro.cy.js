@@ -6,6 +6,10 @@ describe('US-012 - Funcionalidade: Cadastro de usuarios', () => {
   beforeEach (() => { 
     cy.visit('/')
   });
+  afterEach(() => {
+    cy.screenshot()
+
+  });
   it('Deve fazer o cadastro dos campos obrigatórios', () => {
     var email = `Maria${Date.now()}@gmail.com`
     cy.preencherCadastro('Maria','Sillva', email,'11235689778','Jauni@584')
